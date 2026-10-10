@@ -1,0 +1,9 @@
+.env
+node_modules/
+dist/
+__pycache__/
+*.pyc
+data/raw/
+data/results/*
+!data/results/.gitkeep
+!data/results/predictions.csv
