@@ -135,8 +135,8 @@ Reads `data/results/predictions.csv` (override with `HOUSEHOLDAI_PREDICTIONS_PAT
 Interactive docs at `/docs` when the backend runs.
 
 ## Screenshots
+<img width="540" height="700" alt="Screenshot 2026-10-10 205817" src="https://github.com/user-attachments/assets/4e18efde-0f3d-4eb6-b1f3-ceecaf81ee97" />
 
-_Add screenshots here: Console, Household Pulse, warning detail, Early Warning Center._
 
 ## Future enhancements
 
