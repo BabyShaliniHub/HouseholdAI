@@ -1,0 +1,96 @@
+{
+  "dataset": "data/processed/household_final_10000.csv",
+  "rows": 10000,
+  "households": 10,
+  "signals": {
+    "electricity": "powerW",
+    "water": "volumeFlow"
+  },
+  "features": [],
+  "model": {
+    "type": "Existing precomputed predictions"
+  },
+  "calibration": {
+    "method": "Report from existing predictions"
+  },
+  "statistical_anomalies": 487,
+  "statistical_anomaly_rate_pct": 4.87,
+  "warnings": 12,
+  "warning_rate_pct": 0.12,
+  "by_household": {
+    "installation_0": {
+      "statistical_anomalies": 64,
+      "statistical_pct": 6.4,
+      "warnings": 3,
+      "warning_pct": 0.3
+    },
+    "installation_1": {
+      "statistical_anomalies": 49,
+      "statistical_pct": 4.9,
+      "warnings": 0,
+      "warning_pct": 0.0
+    },
+    "installation_2": {
+      "statistical_anomalies": 88,
+      "statistical_pct": 8.8,
+      "warnings": 1,
+      "warning_pct": 0.1
+    },
+    "installation_3": {
+      "statistical_anomalies": 83,
+      "statistical_pct": 8.3,
+      "warnings": 3,
+      "warning_pct": 0.3
+    },
+    "installation_4": {
+      "statistical_anomalies": 53,
+      "statistical_pct": 5.3,
+      "warnings": 1,
+      "warning_pct": 0.1
+    },
+    "installation_5": {
+      "statistical_anomalies": 38,
+      "statistical_pct": 3.8,
+      "warnings": 0,
+      "warning_pct": 0.0
+    },
+    "installation_6": {
+      "statistical_anomalies": 35,
+      "statistical_pct": 3.5,
+      "warnings": 1,
+      "warning_pct": 0.1
+    },
+    "installation_7": {
+      "statistical_anomalies": 45,
+      "statistical_pct": 4.5,
+      "warnings": 1,
+      "warning_pct": 0.1
+    },
+    "installation_8": {
+      "statistical_anomalies": 21,
+      "statistical_pct": 2.1,
+      "warnings": 1,
+      "warning_pct": 0.1
+    },
+    "installation_9": {
+      "statistical_anomalies": 11,
+      "statistical_pct": 1.1,
+      "warnings": 1,
+      "warning_pct": 0.1
+    }
+  },
+  "warnings_by_problem_type": {
+    "electricity": 12
+  },
+  "by_risk_level": {
+    "NORMAL": 9988,
+    "LOW": 7,
+    "MEDIUM": 5
+  },
+  "by_problem_type_among_statistical_anomalies": {
+    "low_activity": 414,
+    "contextual": 61,
+    "electricity": 12
+  },
+  "temperature_available": false
+}
