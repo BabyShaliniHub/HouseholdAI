@@ -134,12 +134,21 @@ Reads `data/results/predictions.csv` (override with `HOUSEHOLDAI_PREDICTIONS_PAT
 
 Interactive docs at `/docs` when the backend runs.
 
-## Screenshots
+## Project Demo Screenshots
 <img width="1017" height="767" alt="Screenshot 2026-10-10 162047" src="https://github.com/user-attachments/assets/2c98adf4-9a36-4cb7-9b23-9f9d7d1809ad" />
+
+
 <img width="817" height="635" alt="Screenshot 2026-10-10 205650" src="https://github.com/user-attachments/assets/fbc5cf80-2884-4644-82a2-8490f03d2279" />
+
+
 <img width="682" height="561" alt="Screenshot 2026-10-10 205710" src="https://github.com/user-attachments/assets/d9c8f958-6b60-4cad-87ee-e1a43c350ee6" />
+
+
 <img width="1108" height="722" alt="Screenshot 2026-10-10 205743" src="https://github.com/user-attachments/assets/f3199246-30d7-4032-be7d-3dca159118a9" />
+
+
 <img width="540" height="700" alt="Screenshot 2026-10-10 205817" src="https://github.com/user-attachments/assets/7549bcd7-3a28-4c46-8eb5-ca9d5f6d4060" />
+
 
 
 ## Future enhancements
