@@ -6,21 +6,41 @@ HouseholdAI learns the normal rhythm of each home from its electricity and water
 
 > **Scope.** HouseholdAI performs anomaly detection and early warning. It does **not** diagnose physical faults, confirm leaks or predict appliance failure, and it makes no accuracy guarantees. Water alerts say "possible abnormal water flow", never "leak detected".
 
-## Problem and solution
+## Problem statement
 
-Households rarely notice a tap left running, a failing appliance or an odd night-time load until a bill arrives. Fixed thresholds ("alert above 5000 W") fail because every home is different. HouseholdAI instead learns each household's own baseline, scores how unusual each observation is, turns that into a risk level, and explains the reason in plain language.
+Households use electricity and water every day, but unusual consumption patterns can go unnoticed until they lead to resource wastage, unexpected utility bills, or inconvenience. Traditional monitoring methods often depend on manual observation or fixed thresholds, which may not account for differences in household usage patterns.
+
+There is a need for an intelligent monitoring system that can analyze household resource data, identify potentially unusual activities, and present understandable warnings that help users decide when further investigation may be necessary.
+
+## Proposed Solution
+
+HouseholdAI is an AI-powered household monitoring and early warning system designed to analyze electricity consumption and water flow data. It uses machine learning-based anomaly detection to identify observations that differ from expected patterns and assigns risk levels to help users prioritize potentially concerning activities.
+
+The system presents its findings through an interactive dashboard that combines visual usage trends, warning timelines, risk indicators, and plain-language explanations. By making data-driven insights easier to understand, HouseholdAI aims to help users monitor household resources more effectively and investigate unusual usage earlier.
+
+HouseholdAI is designed as a decision-support tool. Its warnings highlight potential anomalies and do not independently confirm a leak, appliance failure, or other physical fault.
+
 
 ## Features
 
-- Household Pulse: a signature waveform (electricity above the line, water flow below) with clickable warning markers
-- AI Risk Index (0-100) with NORMAL / LOW / MEDIUM / HIGH levels
-- Plain-language explanations and recommended actions for every warning
-- Early Warning Center timeline with level and household filters
-- Household profile: normal electricity range, water behaviour, active hours, risk trend
-- Data explorer: date range, resource switch, period comparison, household comparison, raw data under "View Data"
-- AI insights computed from the results (nothing hand-written)
-- Demo mode: a guided tour whose targets are chosen from the real model output
-- Loading, empty, invalid-household, API-down and "ML results missing" states; light/dark theme; keyboard accessible; reduced-motion aware
+-Household Pulse: Visualizes electricity and water usage patterns over time, with clickable markers to explore warnings.
+
+-AI Risk Index: Presents a risk score from 0–100 and categorizes observations into NORMAL, LOW, MEDIUM, and HIGH risk levels.
+
+-Explainable Warnings: Provides plain-language explanations and recommended actions to help users understand flagged activities.
+
+-Early Warning Center: Displays a timeline of warnings with filters for risk level and household.
+
+-Household Profile: Summarizes household usage characteristics, including electricity ranges, water-flow behaviour, active hours, and risk trends where available.
+
+-Data Explorer: Supports date-range selection, resource switching, period comparisons, household comparisons, and access to underlying data.
+
+-AI-Generated Insights: Presents insights derived from available analysis results to help users interpret usage patterns.
+
+-Interactive Demo Mode: Guides users through selected dashboard features using examples from available model results.
+
+-Reliable User Experience: Includes loading, empty-data, invalid-household, API-unavailable, and missing-ML-results states, alongside light and dark themes, keyboard accessibility, and reduced-motion support.
+
 
 ## Architecture
 
