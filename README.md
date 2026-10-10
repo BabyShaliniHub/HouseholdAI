@@ -23,23 +23,23 @@ HouseholdAI is designed as a decision-support tool. Its warnings highlight poten
 
 ## Features
 
--Household Pulse: Visualizes electricity and water usage patterns over time, with clickable markers to explore warnings.
+- Household Pulse: Visualizes electricity and water usage patterns over time, with clickable markers to explore warnings.
 
--AI Risk Index: Presents a risk score from 0–100 and categorizes observations into NORMAL, LOW, MEDIUM, and HIGH risk levels.
+- AI Risk Index: Presents a risk score from 0–100 and categorizes observations into NORMAL, LOW, MEDIUM, and HIGH risk levels.
 
--Explainable Warnings: Provides plain-language explanations and recommended actions to help users understand flagged activities.
+- Explainable Warnings: Provides plain-language explanations and recommended actions to help users understand flagged activities.
 
--Early Warning Center: Displays a timeline of warnings with filters for risk level and household.
+- Early Warning Center: Displays a timeline of warnings with filters for risk level and household.
 
--Household Profile: Summarizes household usage characteristics, including electricity ranges, water-flow behaviour, active hours, and risk trends where available.
+- Household Profile: Summarizes household usage characteristics, including electricity ranges, water-flow behaviour, active hours, and risk trends where available.
 
--Data Explorer: Supports date-range selection, resource switching, period comparisons, household comparisons, and access to underlying data.
+- Data Explorer: Supports date-range selection, resource switching, period comparisons, household comparisons, and access to underlying data.
 
--AI-Generated Insights: Presents insights derived from available analysis results to help users interpret usage patterns.
+- AI-Generated Insights: Presents insights derived from available analysis results to help users interpret usage patterns.
 
--Interactive Demo Mode: Guides users through selected dashboard features using examples from available model results.
+- Interactive Demo Mode: Guides users through selected dashboard features using examples from available model results.
 
--Reliable User Experience: Includes loading, empty-data, invalid-household, API-unavailable, and missing-ML-results states, alongside light and dark themes, keyboard accessibility, and reduced-motion support.
+- Reliable User Experience: Includes loading, empty-data, invalid-household, API-unavailable, and missing-ML-results states, alongside light and dark themes, keyboard accessibility, and reduced-motion support.
 
 
 ## Architecture
