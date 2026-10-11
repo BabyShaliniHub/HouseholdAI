@@ -8,18 +8,19 @@ HouseholdAI learns the normal rhythm of each home from its electricity and water
 
 ## Problem statement
 
-Households use electricity and water every day, but unusual consumption patterns can go unnoticed until they lead to resource wastage, unexpected utility bills, or inconvenience. Traditional monitoring methods often depend on manual observation or fixed thresholds, which may not account for differences in household usage patterns.
+Households rely on electricity and water every day, but unusual usage patterns can go unnoticed until they lead to resource wastage, unexpected utility bills, or inconvenience. Both unusually high and unusually low activity may deserve attention depending on the situation. For example, high electricity consumption may indicate excessive usage, while unexpectedly low activity could suggest a change in appliance behaviour.
 
-There is a need for an intelligent monitoring system that can analyze household resource data, identify potentially unusual activities, and present understandable warnings that help users decide when further investigation may be necessary.
+Traditional monitoring methods often rely on manual observation or fixed thresholds that may not account for differences in household usage patterns. There is a need for an intelligent system that can analyze household resource data, identify potentially unusual activity, and provide understandable warnings to help users decide when further investigation may be necessary.
 
 ## Proposed Solution
 
 HouseholdAI is an AI-powered household monitoring and early warning system designed to analyze electricity consumption and water flow data. It uses machine learning-based anomaly detection to identify observations that differ from expected patterns and assigns risk levels to help users prioritize potentially concerning activities.
 
-The system presents its findings through an interactive dashboard that combines visual usage trends, warning timelines, risk indicators, and plain-language explanations. By making data-driven insights easier to understand, HouseholdAI aims to help users monitor household resources more effectively and investigate unusual usage earlier.
+The system presents its findings through an interactive dashboard featuring visual usage trends, warning timelines, risk indicators, and plain-language explanations. It helps users explore changes in household electricity and water usage and understand which observations may require attention.
 
-HouseholdAI is designed as a decision-support tool. Its warnings highlight potential anomalies and do not independently confirm a leak, appliance failure, or other physical fault.
+HouseholdAI considers potentially unusual low and high activity as patterns that may warrant investigation, depending on the detection results. Such activity can also occur during normal household routines, so a warning does not necessarily mean that a device is faulty or that water is being wasted.
 
+Designed as a decision-support tool, HouseholdAI aims to improve awareness of household resource usage and help users investigate potential issues earlier, rather than claiming to confirm leaks, appliance failures, or other physical faults.
 
 ## Features
 
